@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<style>
+    table {
+        margin: auto;
+        width: 50%;
+        border-collapse: collapse;
+    }
+    table, th, td{
+        border: 1px solid black;
+    }
+
+    th, td{
+        text-align: center;
+    }
+</style>
+<body>
+    <h1 style="text-align: center;">Tables</h1>
+
+    <table>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Age
+            </th>
+        </tr>
+        <tr>
+            <td>
+                X
+            </td>
+            <td>
+                20
+            </td>
+        </tr>
+    </table>
+    <br>
+
+
+
+    <h3 style="text-align: center;">Using thead, tbody,tfoots, colgroup</h3>
+    <table>
+        <colgroup>
+            <col span="1" style="background-color: aquamarine;">
+            <col style="background-color: chartreuse;"
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Karim</td>
+                <td>25,000</td>
+            </tr>
+            <tr>
+                <td>Rahim</td>
+                <td>20,000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Sum</td>
+            <td>45,000</td>
+        </tfoot>
+    </table>
+    <br>
+    <h2>Unordered List</h2>
+    <ul style="list-style-type: disc;">
+        <li>Name</li>
+        <li>Age</li>
+        <li>Phone</li>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <ol type="A">
+        <li>Name</li>
+        <li>Age</li>
+        <li>Phone</li>
+    </ol>
+</body>
+</html>
